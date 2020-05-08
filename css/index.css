@@ -1,0 +1,75 @@
+#mineDiv{
+    text-align: center;
+    font-weight:bold;
+}
+.leve1 button{
+    outline:none;
+    border:none;
+    width:80px;
+    height:25px;
+    background:#02a4ad;
+    color:#fff;
+    border-radius:10px;
+    margin-bottom:15px;
+    cursor:pointer;
+}  
+.active{
+    background:#00abff!important;
+}
+table{
+    border-spacing:1px;
+    background:#929196;
+    margin:0 auto;
+} 
+td{
+    width:30px;
+    height:30px; 
+    box-sizing: border-box;
+    background:#ccc;
+    border:2px solid;
+    border-color:#fff #a1a1a1 #a1a1a1 #fff;
+}
+td.addMine{
+    background-image: url(../img/mine.jpg);
+    background-size:cover;
+    border:none;
+}
+td.addFlag{
+    background-image:url(../img/flag.jpg);
+    background-size:cover;
+    border:none;
+
+}
+
+.addZero{
+    border:none;
+    color:rgb(133, 71, 71);
+}
+.addOne{
+    border:none;
+    color:rgb(88, 85, 85);
+}
+.addTwe{
+    border:none;
+    color:rgb(42, 170, 10);
+}
+.addThree{
+    border:none;
+    color:rgb(13, 148, 92);
+}
+.addFour{
+    border:none;
+    color:rgb(46, 18, 202);
+}
+.addFive{
+    border:none;
+    color:rgb(197, 12, 120);
+}
+.addSix{
+    border:none;
+    color:purple;
+}
+.addSeven{
+    border:none;
+    color:rgba(172, 175, 9, 0.616);
+}
